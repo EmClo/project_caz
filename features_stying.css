@@ -1,0 +1,60 @@
+/*********menu styling***************/
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 1.5rem 200px 1.4rem;
+}
+
+hr{
+    margin: 1.5rem 200px 1.4rem;
+
+}
+
+div {
+    display: block;
+}
+
+.project_name{
+margin-left: 20px;
+}
+
+/**************nav styling****************/
+.nav{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-dark-rgb),var(--bs-text-opacity))!important;
+    text-decoration: none!important;
+    padding-top: 0.5rem!important;
+    padding-bottom: 0.5rem!important;
+    margin-right: 20px;
+    color: var(--bs-link-color);
+    text-decoration: underline;
+
+}
+a {
+    color: var(--bs-link-color);
+    text-decoration: underline;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*********** input box[reg num] styling ************/
+.input_box{
+   text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 200px 500px 200px 500px;
+    size: 2000px;
+}

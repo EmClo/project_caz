@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="support_styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+     <div class= "menu">
+        <div class="project_name">
+            <a class="home" href="index.html">
+            <h1>CAZ</h1>
+            <h1>PROJECT</h1>
+            </a>
+        </div>
+        <nav class="nav">
+            <a class="features" href="features.html">Features</a>
+            <a class="support" href="support.html">Support</a>
+            <a class="account" href="account.html">My account</a>
+        </nav>
+    </div>
+     <hr>
+    <div class="contact_us">
+        <h3>Contact Us</h3>
+      <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email..">
+
+        <label for="county">County</label>
+        <select id="county" name="county">
+            <option value="select county">select county</option>
+            <option value="bedfordshire">Bedfordshire</option>
+            <option value="bath">Bath</option>
+            <option value="bristol">Bristol</option>
+            <option value="city of london">City of London</option>
+            <option value="cornwall">Cornwall</option>
+            <option value="cumbria">Cumbria</option>
+            <option value="devon">Devon</option>
+            <option value="dorset">Dorset</option>
+            <option value="essex">Essex</option>
+            <option value="gloucestershire">Gloucestershire</option>
+            <option value="greater London">Greater London</option>
+            <option value="greater manchester[">Greater Manchester</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+</body>
+</html>
