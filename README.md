@@ -7,7 +7,7 @@ Chinelo Ojiako, Emma Northcott, Rachel Gough, Emma clokey, Liv Moran
 
 
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/107497987/184479395-28a1dba6-a464-4e24-99bf-624c29f52e52.png">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/107497987/184506407-f8359b3a-fb03-48fe-b282-7b522743238b.jpg">
 </p>
 
 # About
