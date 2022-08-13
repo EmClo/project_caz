@@ -11,7 +11,7 @@ Chinelo Ojiako, Emma Northcott, Rachel Gough, Emma clokey, Liv Moran
 </p>
 
 # About
-CazApp is a website that aims to help users make transportation decisions regarding the Clean Air Zone in Bath. It will allow the user to visualise the charge zone, check their vehicle exemption status by inputting their liscence plate, pay a charge if required and/or use the planform to make more envirnmentally consious travel choices.
+CazApp is a website that aims to help users make transportation decisions regarding the Clean Air Zone in Bath. It will allow the user to visualise the charge zone, check their vehicle exemption status by inputting their liscence plate, pay a charge if required and/or use the platform to make more envirnmentally consious travel choices.
 
 # Prerequisites
 python packages to install: <br /> pandas <br /> folium <br /> 
