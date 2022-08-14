@@ -1,29 +1,27 @@
-# import requests
-from flask import Flask, json
+from flask import Flask, render_template
 
 
 app = Flask(__name__)
 
 
-@app.route('/', methods=['GET'])
+@app.get('/')
 def home_page():
-    return "index.html"
+    return render_template("index.html")
 
 
-@app.route('/features/', methods=['GET'])
-def features_page():
-    return "features.html"
+@app.get('/cities/bath')
+def bath_city_page():
+    return render_template("bath.html")
 
 
-@app.route('/support/', methods=['GET'])
-def account_page():
-    return "support.html"
-
-
-@app.route('/account/', methods=['GET'])
+@app.get('/support')
 def support_page():
-    return "account.html"
+    return render_template("support.html")
 
+
+@app.get('/account')
+def account_page():
+    return render_template("account.html")
 
 
 # def vehicle_data():
@@ -64,6 +62,9 @@ def support_page():
 #
 #
 # vehicle_data()
+
+
+app.run(debug=True, port=5002)
 
 
 
