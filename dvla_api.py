@@ -1,10 +1,12 @@
 import requests
 import json
 from datetime import datetime
+from debuger import correct_license, correct_private
 
 
 def vehicle_data():
     user_reg = input("Please enter your registration number?: ")
+    correct_license(user_reg)
     dvla_api_url = "https://driver-vehicle-licensing.api.gov.uk/vehicle-enquiry/v1/vehicles"
     headers = {
         'x-api-key': "sAtfcnZbJ98n3L3Dh9mKsoLRT3AbGqQ4h4Yjchg3",
@@ -27,6 +29,7 @@ def vehicle_data():
     euro6_car_num = datetime.strptime(euro6_car_date, '%Y-%m')
 
     is_private = input("Is your vehicle a private vehicle? Please enter Y or N: ")
+    correct_private(is_private)
     if is_private == 'Y' and vehicle_type == 'M1':
         print("You are exempt and can drive through CAZ with no charge. ")
     elif is_private == 'Y' and vehicle_type == 'N1' and reg_date_num < euro6_num:
