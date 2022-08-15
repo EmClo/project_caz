@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CazApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-sm-4 text-sm-start text-center">
+                <a href="/"><img src="/static/images/logo.gif" alt="Logo" style="width: 100%; max-width: 300px;"></a>
+            </div>
+            <div class="col-sm-8 d-flex justify-content-sm-end justify-content-center align-items-end">
+                <nav class="navbar navbar-expand p-0">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="link-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cities</a>
+                                <ul class="dropdown-menu" style="width: 12rem;">
+                                    <li><a class="dropdown-item" href="/cities/bath">Bath</a></li>
+                                    <hr class="mt-2">
+                                    <h5 class="px-3">Coming soon</h5>
+                                    <li><a class="dropdown-item">Sheffield</a></li>
+                                    <li><a class="dropdown-item">Bristol</a></li>
+                                    <li><a class="dropdown-item">Portsmouth</a></li>
+                                    <li><a class="dropdown-item">Tyneside</a></li>
+                                    <li><a class="dropdown-item">Bradford</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ps-3"><a href="/support" class="link-dark">Support</a></li>
+                            <li class="nav-item ps-3"><a href="/account" class="link-dark">My Account</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <hr class="mb-5">
+        <div class="shadow p-4">
+            <form method="post" class="mx-auto" style="max-width: 400px;">
+                <h3 class="display-6 text-center">Need some help?</h3>
+                <div class="mb-3">
+                    <label for="name" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="name" name="name" disabled>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" disabled>
+                </div>
+                <div class="mb-3">
+                    <label for="county" class="form-label">County</label>
+                    <select class="form-control" id="county" name="county" disabled>
+                        <option value="Bath and North East Somerset">Bath and North East Somerset</option>
+                        <option value="Bedfordshire">Bedfordshire</option>
+                        <option value="Berkshire">Berkshire</option>
+                        <option value="Bristol">Bristol</option>
+                        <option value="Buckinghamshire">Buckinghamshire</option>
+                        <option value="Cambridgeshire">Cambridgeshire</option>
+                        <option value="Cheshire">Cheshire</option>
+                        <option value="Cornwall">Cornwall</option>
+                        <option value="County Durham">County Durham</option>
+                        <option value="Cumbria">Cumbria</option>
+                        <option value="Derbyshire">Derbyshire</option>
+                        <option value="Devon">Devon</option>
+                        <option value="Dorset">Dorset</option>
+                        <option value="East Riding of Yorkshire">East Riding of Yorkshire</option>
+                        <option value="East Sussex">East Sussex</option>
+                        <option value="Essex">Essex</option>
+                        <option value="Gloucestershire">Gloucestershire</option>
+                        <option value="Greater London">Greater London</option>
+                        <option value="Greater Manchester">Greater Manchester</option>
+                        <option value="Hampshire">Hampshire</option>
+                        <option value="Herefordshire">Herefordshire</option>
+                        <option value="Hertfordshire">Hertfordshire</option>
+                        <option value="Isle of Wight">Isle of Wight</option>
+                        <option value="Isles of Scilly">Isles of Scilly</option>
+                        <option value="Kent">Kent</option>
+                        <option value="Lancashire">Lancashire</option>
+                        <option value="Leicestershire">Leicestershire</option>
+                        <option value="Lincolnshire">Lincolnshire</option>
+                        <option value="Merseyside">Merseyside</option>
+                        <option value="Norfolk">Norfolk</option>
+                        <option value="North Somerset">North Somerset</option>
+                        <option value="North Yorkshire">North Yorkshire</option>
+                        <option value="Northamptonshire">Northamptonshire</option>
+                        <option value="Northumberland">Northumberland</option>
+                        <option value="Nottinghamshire">Nottinghamshire</option>
+                        <option value="Oxfordshire">Oxfordshire</option>
+                        <option value="Rutland">Rutland</option>
+                        <option value="Shropshire">Shropshire</option>
+                        <option value="Somerset">Somerset</option>
+                        <option value="South Gloucestershire">South Gloucestershire</option>
+                        <option value="South Yorkshire">South Yorkshire</option>
+                        <option value="Staffordshire">Staffordshire</option>
+                        <option value="Suffolk">Suffolk</option>
+                        <option value="Surrey">Surrey</option>
+                        <option value="Tyne & Wear">Tyne & Wear</option>
+                        <option value="Warwickshire">Warwickshire</option>
+                        <option value="West Midlands">West Midlands</option>
+                        <option value="West Sussex">West Sussex</option>
+                        <option value="West Yorkshire">West Yorkshire</option>
+                        <option value="Wiltshire">Wiltshire</option>
+                        <option value="Worcestershire">Worcestershire</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your message</label>
+                    <textarea class="form-control" rows="5" id="message" name="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-danger d-block w-100">Send support request</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
