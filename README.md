@@ -22,6 +22,7 @@ python packages to install:
 - unittest 
 - datetime 
 - string
+- mysql.connector
 
 
 ## Executing the program
