@@ -1,6 +1,9 @@
 # project_caz
 Final group project as part of CFG specialization - Software stream
 
+Link to presentation: https://docs.google.com/presentation/d/1QL9zeBKJgns699R_7YsqkVQsQXNTc-DM7YNgt_ebdrg/edit#slide=id.g137fc8127b4_1_488
+Link to talk points: https://docs.google.com/document/d/1chgVeseFj0HBbYv4wkgnim8Tlvu7WrGkhsvfkCytoOI/edit
+
 Contributers:
 
 Chinelo Ojiako, Emma Northcott, Rachel Gough, Emma clokey, Liv Moran
